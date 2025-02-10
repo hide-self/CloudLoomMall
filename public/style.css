@@ -1,0 +1,73 @@
+/* 双伪标签清除父盒子浮动 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+
+/* 上方选项栏的样式 */
+.topSection {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    position: sticky;
+    top: 0px;
+}
+
+/* “云裳集欢迎您，请登录”的浮动样式和左外边距设定 */
+.topSection .welcome {
+    float: left;
+    margin-left: 50px;
+}
+
+.topSection .topfont{
+    font-size: 12px;
+    color: rgb(114, 114, 114);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.topSection .login{
+    float: left;
+    cursor: pointer;
+}
+
+.topSection .register{
+    float: left;
+    margin-left: 20px;
+}
+
+.topSection .register a{
+    text-decoration: none;
+    color: red;
+}
+
+.topSection .register a:hover,
+.topSection .login:hover,.topSection .choice .choice-content:hover{
+    text-decoration: underline;
+}
+
+/* 上方Selection栏右侧中具体选项的字体设置 */
+.topSection .choice{
+    float: right;
+    cursor: pointer;
+}
+
+.topSection .choice::after {
+    content: "\e839";
+    font-family: 'iconfont';
+}
+
+.topSection .selection-right-end{
+    margin-right: 20px;
+}
+

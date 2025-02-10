@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1304879",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9097241",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10268929",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "11372701",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "34830139",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    }
+  ]
+}
