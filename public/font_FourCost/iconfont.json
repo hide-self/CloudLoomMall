@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1284132",
+      "name": "话费",
+      "font_class": "huafei",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1356150",
+      "name": "水费",
+      "font_class": "shuifei",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "15112726",
+      "name": "电费",
+      "font_class": "dianfei",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "15112763",
+      "name": "燃气费",
+      "font_class": "ranqifei",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

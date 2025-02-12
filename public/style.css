@@ -190,7 +190,10 @@ header .shopcar-area .message {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+    color: white;
 }
+
+
 
 nav {
     width: 90%;
@@ -208,13 +211,13 @@ nav .allType {
     font-size: 16px;
 }
 
-nav .allMarket{
+nav .allMarket {
     float: left;
     line-height: 45px;
-    
+
 }
 
-nav .allMarket span{
+nav .allMarket span {
     display: inline-block;
     padding-left: 24px;
     padding-right: 24px;
@@ -223,6 +226,360 @@ nav .allMarket span{
     transition: color 0.5s linear 0.1s;
 }
 
-nav .allMarket span:hover{
+nav .allMarket span:hover {
     color: rgb(177, 25, 26);
+}
+
+
+.w {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.w .item-type {
+    float: left;
+    width: 20%;
+}
+
+.w .item-type .item {
+    line-height: 19px;
+    position: relative;
+
+    background-color: rgb(200, 22, 35);
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+
+    transition: background-color 0.5s ease 0.1s, color 0.5s ease 0.1s;
+}
+
+.w .item-type .item a {
+    color: white;
+    text-decoration: none;
+
+    transition: background-color 0.5s ease 0.1s, color 0.5s ease 0.1s;
+}
+
+.w .item-type .item::before {
+    position: absolute;
+
+    content: "\e840";
+
+    font-family: 'iconfont';
+
+    right: 15px;
+
+}
+
+.w .item-type .item:hover a,
+.w .item-type .item:hover {
+    color: rgb(200, 22, 35);
+}
+
+.w .item-type .item:hover {
+    color: rgb(200, 22, 35);
+    background-color: white;
+
+}
+
+.w .lunbo {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    margin-top: 7.18px;
+    padding-left: 1px;
+    padding-right: 1px;
+    box-sizing: border-box;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+.w .lunbo img {
+    width: 100%;
+    height: 577.82px;
+    vertical-align: bottom;
+    border-radius: 30px;
+}
+
+
+
+.w .lunbo .lunbo-content1 {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    background-color: rgb(220, 0, 41);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.w .lunbo .lunbo-content2 {
+    position: absolute;
+    top: 136px;
+    left: 90px;
+    color: rgb(255, 255, 230);
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.w .lunbo .lunbo-content3 {
+    position: absolute;
+    top: 179px;
+    left: 90px;
+    color: rgb(255, 255, 230);
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.w .lunbo .lunbo-content4 {
+    position: absolute;
+    top: 215px;
+    left: 90px;
+    color: rgb(255, 255, 230);
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.w .lunbo .bar {
+    position: absolute;
+    bottom: 27px;
+    left: 82px;
+}
+
+.w .lunbo .bar .spot {
+    display: inline-block;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin: 8px;
+    opacity: 0.6;
+}
+
+.w .lunbo .bar .spot:hover {
+    opacity: 1;
+}
+
+.w .lunbo .last {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1px;
+    font-size: 40px;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    opacity: 0;
+    transition: opacity 0.3s ease 0.05s,background-color 0.3s ease 0.05s;
+}
+
+.w .lunbo .next {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1px;
+    font-size: 40px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    opacity: 0;
+    transition: opacity 0.3s ease 0.05s,background-color 0.3s ease 0.05s;
+}
+
+.w .lunbo:hover .next,
+.w .lunbo:hover .last {
+    opacity: 1;
+}
+
+.w .lunbo .next:hover,
+.w .lunbo .last:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.w .news {
+    float: left;
+    width: 20%;
+    margin-top: 7.18px;
+    box-sizing: border-box;
+    padding-left: 1px;
+    height: 200px;
+    color: rgb(102, 102, 102);
+}
+
+.w .news .news-title {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    border: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px dotted rgb(228, 228, 228);
+    box-sizing: border-box;
+}
+
+.w .news .news-title::before {
+    content: "云裳集快报";
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    font-weight: 700;
+}
+
+.w .news .news-title::after {
+    content: "更多\e840";
+    font-family: 'iconfont';
+
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+.w .news .news-content {
+    border: 1px solid rgb(228, 228, 228);
+    border-top: 1px dotted rgb(228, 228, 228);
+    margin-top: -1px;
+    box-sizing: border-box;
+}
+
+.w .news .news-content a {
+    display: block;
+
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-size: 12px;
+
+    line-height: 31px;
+
+    transition: color 0.3s ease 0.05s;
+}
+
+.w .news .news-content a:hover {
+    color: rgb(200, 22, 35);
+}
+
+.w .news .news-cost {
+    width: 100%;
+    height: 90px;
+    border: 1px solid rgb(228, 228, 228);
+    border-collapse: collapse;
+    margin-top: -0.5px;
+}
+
+.w .news .news-cost td {
+    border: 1px solid rgb(228, 228, 228);
+    position: relative;
+    height: 90px;
+}
+
+.w .news .news-cost .cost1::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "\e638";
+    font-family: 'iconfont';
+    font-size: 45px;
+}
+
+.w .news .news-cost .cost1::after {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "话费";
+    font-family: 'iconfont';
+    font-size: 12.5px;
+}
+
+.w .news .news-cost .cost2::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "\e615";
+    font-family: 'iconfont';
+    font-size: 45px;
+}
+
+.w .news .news-cost .cost2::after {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "水费";
+    font-family: 'iconfont';
+    font-size: 12.5px;
+}
+
+.w .news .news-cost .cost3::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "\e60f";
+    font-family: 'iconfont';
+    font-size: 45px;
+}
+
+.w .news .news-cost .cost3::after {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "电费";
+    font-family: 'iconfont';
+    font-size: 12.5px;
+}
+
+.w .news .news-cost .cost4::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "\e613";
+    font-family: 'iconfont';
+    font-size: 45px;
+}
+
+.w .news .news-cost .cost4::after {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    content: "燃气费";
+    font-family: 'iconfont';
+    font-size: 12.5px;
+}
+
+.w .news .news-star {
+    background-color: orange;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 24.9px;
 }
