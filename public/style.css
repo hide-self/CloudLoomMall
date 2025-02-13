@@ -20,6 +20,7 @@
     width: 100%;
     background-color: rgb(241, 241, 241);
     position: sticky;
+    z-index: 10;
     top: 0px;
 }
 
@@ -193,6 +194,34 @@ header .shopcar-area .message {
     color: white;
 }
 
+.quickarrive{
+    position: fixed;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.quickarrive div{
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(114, 114, 114);
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+.quickarrive div a{
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.quickarrive div:hover{
+    background-color: rgb(114, 114, 114);
+}
+
+.quickarrive div:hover a{
+    color:white;
+}
 
 
 nav {
@@ -485,6 +514,13 @@ nav .allMarket span:hover {
     border: 1px solid rgb(228, 228, 228);
     position: relative;
     height: 90px;
+
+    cursor: pointer;
+}
+
+.w .news .news-cost td:hover{
+    color: white;
+    background-color: rgb(114, 114, 114);
 }
 
 .w .news .news-cost .cost1::before {
@@ -506,7 +542,7 @@ nav .allMarket span:hover {
 
     content: "话费";
     font-family: 'iconfont';
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 .w .news .news-cost .cost2::before {
@@ -528,7 +564,7 @@ nav .allMarket span:hover {
 
     content: "水费";
     font-family: 'iconfont';
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 .w .news .news-cost .cost3::before {
@@ -550,7 +586,7 @@ nav .allMarket span:hover {
 
     content: "电费";
     font-family: 'iconfont';
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 .w .news .news-cost .cost4::before {
@@ -572,7 +608,7 @@ nav .allMarket span:hover {
 
     content: "燃气费";
     font-family: 'iconfont';
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 .w .news .news-star {
@@ -583,3 +619,352 @@ nav .allMarket span:hover {
     box-sizing: border-box;
     margin-top: 24.9px;
 }
+
+.w .today-recom{
+    float: left;
+    background-color: rgb(92, 82, 81);
+
+    width: calc(12% + 35px);
+    height: 200px;
+
+    position: relative;
+}
+
+.w .today-recom::before{
+    position: absolute;
+
+    font-family: "iconfont";
+    content: "\e61d";
+
+    color: white;
+    font-size: 80px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+
+}
+
+.w .today-recom::after{
+    position: absolute;
+
+    content: "今日推荐";
+
+    color: white;
+    font-size: 22px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    top: 116px;
+
+}
+
+.w ul{
+    margin: 0px;
+}
+
+.w .recom-content{
+    float: left;
+    width: 22%;
+
+    list-style-type: none;
+    background-image: url(../public/recom_03.jpg);
+    background-size: 100% 100%;
+
+    height: 200px;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+.w .recom-content::after{
+    content: "";
+    position: absolute;
+
+    width: 1px;
+    height: 145px;
+
+    background-color: #ddd;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.item-box{
+    margin-top: 50px;
+}
+
+.item-box .box-head{
+    line-height: 45px;
+    border-bottom: 3px solid rgb(177, 25, 26);
+}
+
+.item-box .box-head .item-title{
+    float: left;
+    color: rgb(177, 25, 26);
+
+    font-size: large;
+}
+
+.item-box .box-head li{
+    float: right;
+    color: rgb(114, 114, 114);
+}
+
+.item-box .box-head li:hover a{
+    color: rgb(177, 25, 26);
+}
+
+.item-box .box-head li a{
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item-box .box-display .col-11{
+    float: left;
+    position: relative;
+
+    width: 19%;
+    height: 350px;
+    background-color: rgb(249, 249, 249);
+
+    cursor: pointer;
+    
+    
+}
+
+.item-box .box-display .col-11 li{
+    position: absolute;
+
+    width: 40%;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    text-align: center;
+    box-sizing: border-box;
+
+    color: rgb(102, 102, 102);
+    z-index: 5;
+    
+
+    font-weight: bold;
+}
+
+.item-box .box-display .col-11 li:hover{
+    color: rgb(0,0,0, 0.8);
+}
+
+.item-box .box-display .col-11 .tv{
+
+    width: 80%;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-image: url(../public/TV.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item-box .box-display .col-12{
+    float: left;
+    width: 22%;
+    height: 350px;
+    background-color: rgb(174, 215, 219);
+    position: relative;
+}
+
+.item-box .box-display .col-12 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+}
+
+.item-box .box-display .col-13,.item-box .box-display .col-14,.item-box .box-display .col-15{
+    float: left;
+    width: 19.667%;
+    height: 350px;
+}
+
+.item-box .box-display .col-13 div:nth-child(1){
+    height: 50%;
+    width: 100%;
+
+    background-image: url(../public/computer1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.item-box .box-display .col-13 div:nth-child(2){
+    height: 50%;
+    width: 100%;
+
+    background-image: url(../public/computer2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+    background-position: 50%;
+}
+
+.item-box .box-display .col-14 div:nth-child(1){
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../public/wyl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+    background-position: 50%;
+}
+
+.item-box .box-display .col-15 div:nth-child(1){
+    height: 50%;
+    width: 100%;
+
+    background-image: url(../public/computer1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.item-box .box-display .col-15 div:nth-child(2){
+    height: 50%;
+    width: 100%;
+
+    background-image: url(../public/computer2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(102, 102, 102);
+    background-position: 50%;
+}
+
+#jiadian .col-14 div:nth-child(1){
+    background-image: url(../public/qz.jpg);
+}
+
+#shuma .col-14 div:nth-child(1){
+    background-image: url(../public/ql.jpg);
+}
+
+#diannao .col-14 div:nth-child(1){
+    background-image: url(../public/sx.jpg);
+}
+
+#jiajv .col-14 div:nth-child(1){
+    background-image: url(../public/wyl.jpg);
+}
+
+#fuzhuangcheng .col-14 div:nth-child(1){
+    background-image: url(../public/zz.jpg);
+}
+
+footer{
+    background-color: rgb(245, 245, 245);
+
+}
+
+footer .promise li{
+    float: left;
+    width: 25%;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+footer .promise li .zhengpinbaozhang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../public/icons.png);
+
+    background-position: 307px -2px;
+    position: relative;
+    top: 10px;
+}
+
+footer .promise li .peisongjishi{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../public/icons.png);
+
+    background-position: 305px 212px;
+    position: relative;
+    top: 10px;
+}
+
+footer .promise li .pinzhibaozhang{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../public/icons.png);
+
+    background-position: 303px 160px;
+    position: relative;
+    top: 10px;
+}
+
+footer .promise li .qingsonggouwu{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../public/icons.png);
+
+    background-position: 302px 376px;
+    position: relative;
+    top: 10px;
+}
+
+footer .service-entry li{
+    float: left;
+    width: 15%;
+}
+
+footer .service-entry h3{
+    color: rgb(102, 102, 102);
+}
+footer .service-entry p,footer .service-entry p a{
+    margin: 3px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+footer .service-entry p a:hover{
+    color: rgb(177, 25, 26);
+}
+
+footer .information .more-help{
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+
+footer .information .more-help a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+footer .information .more-help a:hover{
+    color: rgb(177, 25, 26);
+}
+
+footer .information .contact{
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+
+
