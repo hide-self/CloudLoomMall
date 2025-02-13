@@ -5,4 +5,4 @@
 
 ## 一、主页部分
 
-![主页效果展示]([public/homeshow.png](https://github.com/hide-self/CloudLoomMall/blob/main/public/homeshow.png?raw=true))
+![主页效果展示](https://raw.githubusercontent.com/hide-self/CloudLoomMall/refs/heads/main/public/homeshow.png)
