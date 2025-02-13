@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 # 基于web前端技术的云裳集电商平台（CloudLoomMall）
 一个基于html与css技术制作的一款web前端的电商平台界面，名为云裳集（CloudLoomMall），包含首页、注册界面、商品陈列页面。作为一个前端工作者初学阶段的小型项目。可通过web.py这个基于flask框架的后端技术简单部署到本地，向他人分享此项目。
 
@@ -9,4 +5,4 @@ typora-root-url: ./
 
 ## 一、主页部分
 
-![./public/homeshow.png](/public/homeshow.png)
+![主页效果展示]([public/homeshow.png](https://github.com/hide-self/CloudLoomMall/blob/main/public/homeshow.png?raw=true))
