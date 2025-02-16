@@ -1,0 +1,71 @@
+.reg{
+    position: relative;
+
+    width: 100%;
+    height: 500px;
+}
+
+.reg form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(240, 239, 242);
+    width: 60%;
+    height: 80%;
+}
+
+.reg form h3{
+    text-align: center;
+}
+
+.reg form table{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.reg form table td{
+    height: 80px;
+    width: 100px;
+}
+
+.reg .inhere a{
+    text-decoration: none;
+    color: orange;
+}
+
+.reg form table td input[type="text"]{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.reg form table td .yanzheng{
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    right: 1px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: orange;
+}
+
+.reg form table .yanzheng-row{
+    position: relative;
+}
+
+.reg form table .inhere input[type="submit"]{
+    height: 40px;
+    width: 300px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 20px;
+}
