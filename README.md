@@ -6,3 +6,13 @@
 ## 一、主页部分
 
 ![主页效果展示](https://raw.githubusercontent.com/hide-self/CloudLoomMall/refs/heads/main/public/homeshow.png)
+
+
+## 二、登录界面部分
+
+![登陆界面效果展示](https://github.com/hide-self/CloudLoomMall/blob/main/public/loginshow.png?raw=true)
+
+
+## 三、注册界面部分
+
+![注册界面效果展示](https://github.com/hide-self/CloudLoomMall/blob/main/public/registershow.png?raw=true)
